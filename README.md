@@ -1,5 +1,15 @@
 # nvo_lab8
 
+For performing this lab, we neeed to use the following tools/technologies to implement automation for creationg of the network, VMs, Security groups.
+
+1. BGP
+2. Hypervisor (such as OpenStack)
+3.Containers
+4. SDN Controller
+5. Hardware server
+
+<img width="486" alt="Screenshot 2023-04-11 at 7 36 38 AM" src="https://user-images.githubusercontent.com/89698476/231180399-1a7104f7-a574-47b1-9049-f82374d5b0dc.png">
+
 Objective 1: Automate the creation of multiple virtual networks (VNs) within the hypervisor and their connection to the public network
 Options:
 1. Create a Virtual Machine, Virtual Network

@@ -19,6 +19,14 @@ This security group configuration allows all intra-VN and inter-VN communication
 Objective 4: Automate spinning up and configuring a Quagga/FRR BGP router as a Docker container
 a. Automate its BGP configuration to peer with the SDN controller in the next objective. Enter the required IP Address and AS numbers
 
+- docker pull cumulusnetworks/frrouting
+
+$ docker pull cumulusnetworks/frrouting
+$ docker run -t -d --net=host --privileged --name frr cumulusnetworks/frrouting:latest
+$ docker exec -i -t frr /usr/bin/vtysh
+$ show run
+
+
 Objective 5: Automate spinning up and configuring an SDN controller as another Docker container
 a. Automate its BGP speaker configuration to peer with Quagga/FRR. Enter the required IP Address and AS numbers and routes to be advertised to FRR
 

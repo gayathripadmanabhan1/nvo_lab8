@@ -4,7 +4,7 @@ For performing this lab, we neeed to use the following tools/technologies to imp
 
 1. BGP
 2. Hypervisor (such as OpenStack)
-3.Containers
+3. Containers
 4. SDN Controller
 5. Hardware server
 
